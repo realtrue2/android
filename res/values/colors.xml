@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#09091b</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#09091b</color>
+    <color name="list_group_title">#808080</color>
+    <color name="list_item_title">#AAAAAA</color>
+
+    <color name="group_divider_color">#80CBC4</color>
+    <color name="black">#000000</color>
+
+    <color name="lime">#E6EE9C</color>
+    <color name="orange">#FFCC80</color>
+    <color name="grey">#B0BEC5</color>
+    <color name="purple">#B39DDB</color>
+    <color name="pink">#F48FB1</color>
+
+    <color name="colorFAB1">#2196F3</color>
+    <color name="colorFAB2">#E040FB</color>
+    <color name="toolbarTransparent">#00FFFFFF</color>
+    <color name="activated_color">#E8E8E8</color>
+</resources>

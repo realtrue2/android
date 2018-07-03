@@ -1,0 +1,113 @@
+<android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/article_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/article_image"
+            app:layout_collapseMode="parallax"/>
+
+
+
+        <TextView
+            style="?android:attr/textAppearanceLarge"
+            android:id="@+id/article_title"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:context=".ArticleDetailFragment" />
+
+        <TextView
+            style="?android:attr/textAppearanceLarge"
+            android:id="@+id/article_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingBottom="16dp"
+            android:paddingTop="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="#8A0808"
+            tools:context=".ArticleDetailFragment" />
+        <View
+            android:id="@+id/article_line"
+            android:layout_width="wrap_content"
+
+            android:background="@drawable/line"
+            android:layout_height="1dp" />
+
+        <WebView
+
+            android:id="@+id/article_detail"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+            android:id="@+id/progressBar"
+            app:mlpb_progress_stoke_width="3dp"
+            app:mlpb_progress_color="#566da9"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+
+        <View
+            android:id="@+id/article_line2"
+            android:layout_width="wrap_content"
+
+            android:background="@drawable/line"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+        <Button
+            android:id="@+id/act_btn2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/share"
+            android:layout_margin="16dp"
+            />
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/act_btn3"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/full"
+                android:layout_margin="16dp"
+                />
+            <Button
+                android:layout_alignParentEnd="true"
+                android:id="@+id/act_btn4"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/arrow123"
+                android:layout_margin="16dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

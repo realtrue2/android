@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Rss Reader</string>
+    <string name="date">22 Oct 2015</string>
+    <string name="website">https://en.wikipedia.org/wiki/Film</string>
+
+    <string name="sun">Sun</string>
+    <string name="moon">Moon</string>
+    <string name="Planets">Planets</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_favorite">FavoriteActivity</string>
+    <string name="add">add</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="read">Отметить как прочитанные</string>
+    <string name="noread">Отметить как непрочитанные</string>
+    <string name="delread">Удалить прочитанные</string>
+    <string name="settchan">Настройки ленты</string>
+    <string name="delchan">Удалить канал</string>
+
+    <string name="checkbox1_title">CheckBox 1</string>
+    <string name="checkbox1_summary">Summary of CheckBox 1</string>
+    <string name="edittext1_title">EditText 1</string>
+    <string name="edittext1_summary">Summary of EditText 1</string>
+    <string name="list1_title">List 1</string>
+    <string name="list1_summary">Summary of List 1</string>
+
+    <string-array name="entries">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="fontentries">
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="font_size">
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string name="font_summary">Размер шрифта в новости</string>
+
+    <string-array name="font_style_entries">
+        <item>Default</item>
+        <item>Geneva</item>
+        <item>Courer</item>
+        <item>Arial</item>
+        <item>Times New Roman</item>
+    </string-array>
+    <string-array name="font_style">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="list_font_style">Стиль шрифта</string>
+    <string name="font_style_summary">Стиль шрифта при отображении новостей</string>
+
+
+    <string-array name="font_equal_entries">
+        <item>По ширине</item>
+        <item>По левому краю</item>
+        <item>По праому краю</item>
+
+    </string-array>
+    <string-array name="font_equal">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+    <string name="list_font_equal">Выравнивание текста</string>
+    <string name="font_equal_summary">Выравнивание теста в статьях</string>
+
+    <string name="list_interval">Интервал</string>
+    <string name="interval_notice_summary">Интервал между уведомлениями</string>
+    <string-array name="interval_entries">
+        <item>1 час</item>
+        <item>3 часа</item>
+        <item>6 часов</item>
+        <item>12 часов</item>
+        <item>24 часа</item>
+
+    </string-array>
+    <string-array name="interval_notice_values">
+        <item>1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+
+    <string name="SWnotice_title">Уведомления</string>
+    <string name="SWnotice_title2">Вибрация</string>
+    <string name="SWnotice_title3">Индикатор LED</string>
+    <string name="sound_title">Звук</string>
+    <string name="sound_summary">Выберите звук для уведомлений</string>
+    <string name="checkbox2_title">CheckBox 2</string>
+    <string name="font_title">Шрифт</string>
+    <string name="notice_title">Уведомления</string>
+    <string name="list_font">Размер шрифта</string>
+    <string name="checkbox2_summary">Summary of CheckBox 2</string>
+    <string name="edittext2_title">EditText 2</string>
+    <string name="edittext2_summary">Summary of EditText 2</string>
+    <string name="list2_title">List 2</string>
+    <string name="list2_summary">Summary of List 2</string>
+    <string name="category1">Category 1</string>
+    <string name="category2">Category 2</string>
+    <string name="screen1_title">Screen 1</string>
+    <string name="screen1_summary">Summary of Screen 1</string>
+    <string name="screen2_title">Screen 2</string>
+    <string name="screen2_summary">Summary of Screen 2</string>
+    <string name="header1_title">Header 1</string>
+    <string name="header1_summary">Summary of Header 1</string>
+    <string name="header2_title">Header 2</string>
+    <string name="header2_summary">Summary of Header 2</string>
+    <string name="header3_title">Header 3</string>
+    <string name="header3_summary">Summary of Header 3</string>
+</resources>

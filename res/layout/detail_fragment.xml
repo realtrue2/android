@@ -1,0 +1,62 @@
+<android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/article_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+
+
+        <TextView
+            style="?android:attr/textAppearanceLarge"
+            android:id="@+id/article_title"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:context=".ArticleDetailFragment" />
+
+        <TextView
+            style="?android:attr/textAppearanceLarge"
+            android:id="@+id/article_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/article_title"
+            android:paddingBottom="16dp"
+            android:paddingTop="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="@color/orange"
+            tools:context=".ArticleDetailFragment" />
+        <View
+            android:id="@+id/article_line"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/article_author"
+            android:background="@drawable/line"
+            android:layout_height="1dp" />
+
+        <WebView
+
+            android:id="@+id/article_detail"
+            android:layout_below="@+id/article_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           />
+
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

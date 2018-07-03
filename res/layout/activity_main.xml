@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- this should be the root view in order to achieve Navigation Drawer above Toolbar-->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.androidnovice.navigationdrawer.MainActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:fitsSystemWindows="true"
+            app:popupTheme="@style/MyDarkToolbarStyle"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+
+
+
+        <LinearLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            />
+        <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+            android:id="@+id/progressBar"
+            app:mlpb_progress_stoke_width="3dp"
+            app:mlpb_progress_color="#566da9"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/nav_header"
+            layout="@layout/nav_header" />
+
+        <!-- Our main Navigation List-->
+        <ExpandableListView
+            android:layout_below="@+id/nav_header"
+
+            android:id="@+id/nav_left_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:groupIndicator="@null" >
+        </ExpandableListView>
+
+
+
+            <include
+                android:id="@+id/footer_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                layout="@layout/footer_view" />
+
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>
